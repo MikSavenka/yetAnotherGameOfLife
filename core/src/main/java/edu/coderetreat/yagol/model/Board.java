@@ -1,5 +1,7 @@
+package edu.coderetreat.yagol.model;
+
 /**
- * Created by a s u s on 14.11.2015.
+ *
  */
 public class Board {
 
@@ -14,7 +16,7 @@ public class Board {
 
     public Cell[][] getNextGeneration(Cell[][] currentGeneration) {
 
-        Cell[][] forecast = new Cell[SIZE][SIZE];
+        Cell[][] forecast = new Cell[SIZE][SIZE];//todo
 
         return currentGeneration;
     }
