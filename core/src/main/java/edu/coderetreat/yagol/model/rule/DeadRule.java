@@ -1,7 +1,9 @@
-package edu.coderetreat.yagol.model;
+package edu.coderetreat.yagol.model.rule;
+
+import edu.coderetreat.yagol.model.Cell;
 
 /**
- *
+ * Rule for dead cells
  */
 public abstract class DeadRule implements Rule {
     @Override
